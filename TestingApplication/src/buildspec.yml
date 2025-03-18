@@ -6,11 +6,11 @@ phases:
       java: corretto21
   build:
     commands:
-      - Write-Host "Building, Testing and packaging application..."
+      - echo Building, Testing and packaging application...
       - mvn package -DskipTests
   post_build:
     commands:
-      - Write-Host "Build completed successfully."
+      - echo Building, Testing and packaging application...
 artifacts:
   files:
     - target/*.jar
