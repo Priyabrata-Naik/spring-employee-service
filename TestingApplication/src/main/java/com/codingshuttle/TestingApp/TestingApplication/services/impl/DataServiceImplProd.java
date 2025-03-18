@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service;
 public class DataServiceImplProd implements DataService {
     @Override
     public String getData() {
-        return "Prod data";
+        return "Prod data field";
     }
 }
