@@ -13,8 +13,8 @@ phases:
       - Write-Host "Build completed successfully."
 artifacts:
   files:
-    - target\*.jar
+    - target/*.jar
   discard-paths: yes
 cache:
   paths:
-    - 'D:\SpringBootFiles_AnujBhaiya\Week_7\TestingApplication\TestingApplication\.mvn\repository\**\*'
+    - '/root/.m2/**/*'
