@@ -3,7 +3,6 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      runtime:
         java: corretto21
   build:
     commands:
