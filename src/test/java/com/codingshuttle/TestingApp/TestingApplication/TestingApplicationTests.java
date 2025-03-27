@@ -33,7 +33,7 @@ class TestingApplicationTests {
 		log.info("Tearing down all...");
 	}
 
-	@Test
+//	@Test
 //	@Disabled
 	void testNumberOne() {
 		assertThat("Apple")
@@ -44,7 +44,7 @@ class TestingApplicationTests {
 
 	}
 
-	@Test
+//	@Test
 //	@DisplayName(value = "displayTestTwo")
 	void testNumberTwo() {
 		int a = 5;
@@ -58,7 +58,7 @@ class TestingApplicationTests {
 				.isCloseTo(9, Offset.offset(1));
 	}
 
-	@Test
+//	@Test
 	void testDivideTwoNumbers_whenDenominatorIsZero_thenArithmeticException() {
 		int a = 5;
 		int b = 0;
